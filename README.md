@@ -5,3 +5,6 @@
 
 ### Speed test in terminal
 `curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python3 -`
+
+### Find computers in your network
+nmap -sP -PI -PT 192.168.0.1/24
